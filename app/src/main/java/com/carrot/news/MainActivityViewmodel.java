@@ -24,6 +24,6 @@ public class MainActivityViewmodel extends ViewModel {
     }
 
     public void refreshNews(){
-        liveNews = newsRepository.getDailyNews("google-news-in" , "7dcf36a7d65f4cd88c321e4106719203");
+        liveNews = newsRepository.getDailyNews("google-news-in" , "Api key here");
     }
 }
